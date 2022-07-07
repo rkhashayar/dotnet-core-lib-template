@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-core-lib-template", "src\dotnet-core-lib-template.csproj", "{24C063B5-A483-4758-ADA2-E1C349766637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-core-lib-template-tests", "test\dotnet-core-lib-template-tests.csproj", "{0235CC86-0080-413A-8DC8-B701118EC9CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C063B5-A483-4758-ADA2-E1C349766637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C063B5-A483-4758-ADA2-E1C349766637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C063B5-A483-4758-ADA2-E1C349766637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C063B5-A483-4758-ADA2-E1C349766637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0235CC86-0080-413A-8DC8-B701118EC9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0235CC86-0080-413A-8DC8-B701118EC9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0235CC86-0080-413A-8DC8-B701118EC9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0235CC86-0080-413A-8DC8-B701118EC9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

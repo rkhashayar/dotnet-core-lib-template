@@ -1,0 +1,17 @@
+name: Run PowerShell Scripts 
+on: push
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo        
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: |
+          ./build.ps1
+        shell: pwsh
+      - name: Publish
+        run: nuget push **\*.nupkg -Source ${{secrets.DOTNET_CORE_LIB_TEMPLATE_SOURCE}} -ApiKey ${{secrets.DOTNET_CORE_LIB_TEMPLATE_NUGET_TOKEN}}
