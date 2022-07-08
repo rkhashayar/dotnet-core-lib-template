@@ -1,7 +1,7 @@
 # A template for dotnet core libaries with github actions CI
--[] create a repositry using the template
--[] clone the repository
--[] change the project name and namespaces to yours
+- [ ] create a repositry using the template
+- [ ] clone the repository
+- [ ] change the project name and namespaces to yours
 
 ## Versioning 
 [MinVer](https://github.com/adamralph/minver) is used for versioning 
